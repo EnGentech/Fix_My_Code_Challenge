@@ -13,10 +13,8 @@ class Square():
         return self.width * self.width
 
     def PermiterOfMySquare(self):
-        p = 0
-        for x in range(4):
-            p = p + self.width
-        return p
+        """Perimeter of the square"""
+        return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
         return "{}/{}".format(self.width, self.height)
