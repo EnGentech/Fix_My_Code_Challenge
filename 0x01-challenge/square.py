@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """Improvement for Square"""
+
+
 class Square():
 
-    
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
