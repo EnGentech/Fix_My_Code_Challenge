@@ -2,7 +2,7 @@
 """Improvement for Square"""
 
 
-class Square():
+class Square:
 
     def __init__(self, width=0, height=0):
         self.width = width
